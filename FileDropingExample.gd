@@ -1,5 +1,8 @@
 Extends Control
 
+#Small File Dropping Example For Godot
+#Used to create a texture from a file that is dropped on the control node and applying it to a nodes texture.
+
 func _ready():
 	get_tree().connect("files_dropped",self,"handleDroppedFiles") #This is a signal emitted when you drop a file in to this control nodes area.
 
