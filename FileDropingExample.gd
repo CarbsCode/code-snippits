@@ -1,3 +1,5 @@
+Extends Control
+
 func _ready():
 	get_tree().connect("files_dropped",self,"handleDroppedFiles") #This is a signal emitted when you drop a file in to the window.
 
